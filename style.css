@@ -145,7 +145,7 @@ footer {
 }
 
 /* Desktop responsive styles */
-@media screen and (min-width: 901px) and (max-width: 1200px) {
+@media screen and (min-width: 901px) {
 
     header {
         padding: 60px 20px;
