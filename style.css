@@ -18,6 +18,10 @@ header {
     padding: 80px 20px;
 }
 
+header h1 {
+        font-size: 48px;
+    }
+
 /* Main content */
 main {
     max-width: 1000px;
