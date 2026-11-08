@@ -1,0 +1,39 @@
+/* Basic page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #1f2937;
+}
+
+/* Header section */
+header {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+/* Main content */
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #64748b;
+}
