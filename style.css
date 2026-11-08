@@ -61,12 +61,20 @@ footer {
 .logo-item {
     width: 180px;
     flex-shrink: 0;
-    padding: 20px;
+    padding: 25px 20px;
     margin: 0 10px;
     background-color: #3b2b27;
     color: white;
-    border-radius: 10px;
+    border-radius: 12px;
     font-weight: bold;
+    font-size: 18px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect */
+.logo-item:hover {
+    transform: translateY(-8px);
+    background-color: #e1d4db;
 }
 
 /* Pause animation when the mouse hovers */
