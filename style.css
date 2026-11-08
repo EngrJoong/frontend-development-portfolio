@@ -6,8 +6,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
-    color: #1f2937;
+    background-color: #e9e1e5;
+    color: #3b2b27;
 }
 
 /* Header section */
@@ -36,4 +36,51 @@ footer {
     text-align: center;
     padding: 25px;
     color: #64748b;
+}
+
+
+/* Logo carousel section */
+.logo-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.logo-carousel {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+    padding: 20px 0;
+}
+
+.logo-track {
+    display: flex;
+    width: max-content;
+    animation: logo-scroll 20s linear infinite;
+}
+
+.logo-item {
+    width: 180px;
+    flex-shrink: 0;
+    padding: 20px;
+    margin: 0 10px;
+    background-color: #1e293b;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Pause animation when the mouse hovers */
+.logo-carousel:hover .logo-track {
+    animation-play-state: paused;
+}
+
+/* Horizontal scrolling animation */
+@keyframes logo-scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
 }
