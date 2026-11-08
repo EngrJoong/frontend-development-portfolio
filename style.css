@@ -102,7 +102,7 @@ footer {
     }
 
     header h1 {
-        font-size: 26px;
+        font-size: clamp(26px, 4vw, 48px);
     }
 
     main {
@@ -131,28 +131,7 @@ footer {
     }
 
     header h1 {
-        font-size: clamp(26px, 4vw, 42px);
-    }
-
-    main {
-        padding: 25px;
-    }
-
-    .logo-item {
-        width: 160px;
-    }
-
-}
-
-/* Desktop responsive styles */
-@media screen and (min-width: 901px) {
-
-    header {
-        padding: 60px 20px;
-    }
-
-    header h1 {
-        font-size: clamp(42px, 4vw, 48px);
+        font-size: clamp(26px, 4vw, 48px);
     }
 
     main {
