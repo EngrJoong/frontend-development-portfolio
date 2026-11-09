@@ -183,4 +183,28 @@ main {
 /* Footer */
 footer {
     text-align: center;
-    padding: 30
+    padding: 30px 8%;
+    margin-top: 40px;
+    border-top: 1px solid rgba(59, 43, 39, 0.2);
+    font-size: 14px;
+    opacity: 0.75;
+}
+
+/* Mobile navigation */
+@media screen and (max-width: 600px) {
+    header {
+        padding: 20px 5%;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    nav ul li a {
+        font-size: 13px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+}
