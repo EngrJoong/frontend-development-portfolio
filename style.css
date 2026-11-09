@@ -57,3 +57,55 @@ main {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/* Hero section */
+.hero {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 80px 0;
+}
+
+/* Small introductory text */
+.eyebrow {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+/* Main heading */
+.hero h1 {
+    font-size: clamp(40px, 6vw, 76px);
+    line-height: 1.1;
+    max-width: 850px;
+    margin-bottom: 25px;
+}
+
+/* Hero description */
+.hero-description {
+    font-size: 18px;
+    max-width: 600px;
+    margin-bottom: 35px;
+    opacity: 0.8;
+}
+
+/* Main button */
+.primary-button {
+    display: inline-block;
+    background-color: #3b2b27;
+    color: #e9e1e5;
+    padding: 14px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Button hover effect */
+.primary-button:hover {
+    transform: translateY(-4px);
+    opacity: 0.85;
+}
