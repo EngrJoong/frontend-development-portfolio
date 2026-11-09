@@ -66,8 +66,6 @@ main {
     justify-content: center;
     align-items: flex-start;
     padding: 80px 0;
-    background-color: #3b2b27;
-    color: #e9e1e5;
 }
 
 /* Small introductory text */
@@ -97,8 +95,8 @@ main {
 /* Main button */
 .primary-button {
     display: inline-block;
-    background-color: #e1d4db;
-    color: #3b2b27;
+    background-color: #3b2b27;
+    color: #e9e1e5;
     padding: 14px 28px;
     border-radius: 6px;
     text-decoration: none;
