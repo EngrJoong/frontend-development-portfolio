@@ -208,3 +208,43 @@ footer {
         font-size: 20px;
     }
 }
+
+/* Mobile layout */
+@media screen and (max-width: 600px) {
+
+    main {
+        width: 90%;
+    }
+
+    .hero {
+        min-height: 60vh;
+        padding: 60px 0;
+    }
+
+    .hero h1 {
+        font-size: clamp(36px, 10vw, 48px);
+    }
+
+    .hero-description {
+        font-size: 16px;
+    }
+
+    .projects,
+    .about {
+        padding: 55px 0;
+    }
+
+    .projects h2,
+    .about h2 {
+        font-size: 28px;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .project-card {
+        padding: 25px;
+    }
+}
