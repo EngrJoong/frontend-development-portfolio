@@ -1,172 +1,52 @@
-/* Basic page styling */
+/* 1. Basic reset */
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
+/* 2. Overall page */
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
     background-color: #e9e1e5;
     color: #3b2b27;
+    line-height: 1.6;
 }
 
-/* Header section */
+/* 3. Header */
 header {
-    background-color: #3b2b27;
-    color: #e9e1e5;
-    text-align: center;
-    padding: 80px 20px;
+    padding: 25px 8%;
 }
 
-/* Main content */
-main {
-    max-width: 1000px;
-    margin: 40px auto;
-    padding: 20px;
-}
-
-section {
-    background-color: white;
-    padding: 40px;
-    border-radius: 12px;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 25px;
-    color: #3b2b27;
-}
-
-
-/* Logo carousel section */
-.logo-section {
-    margin-top: 40px;
-    text-align: center;
-}
-
-.logo-carousel {
-    width: 100%;
-    overflow: hidden;
-    margin-top: 30px;
-    padding: 20px 0;
-}
-
-.logo-track {
+/* 4. Navigation layout */
+nav {
     display: flex;
-    width: max-content;
-    animation: logo-scroll 10s linear infinite;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.logo-item {
-    width: 180px;
-    flex-shrink: 0;
-    padding: 25px 20px;
-    margin: 0 10px;
-    background-color: #3b2b27;
-    color: white;
-    border-radius: 12px;
+/* 5. Website logo */
+.logo {
+    color: #3b2b27;
+    font-size: 24px;
     font-weight: bold;
-    font-size: 18px;
-    transition: transform 0.3s ease, background-color 0.3s ease;
+    text-decoration: none;
 }
 
-/* Hover effect */
-.logo-item:hover {
-    transform: translateY(-8px);
-    background-color: #e1d4db;
+/* 6. Navigation links */
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
 }
 
-/* Pause animation when the mouse hovers */
-.logo-carousel:hover .logo-track {
-    animation-play-state: paused;
-}
-
-/* Horizontal scrolling animation */
-@keyframes logo-scroll {
-    from {
-        transform: translateX(0);
-    }
-
-    to {
-        transform: translateX(-50%);
-    }
-}
-
-
-/* Mobile responsive styles */
-@media screen and (max-width: 600px) {
-
-    header {
-        padding: 50px 15px;
-    }
-
-    header h1 {
-        font-size: clamp(26px, 4vw, 48px);
-    }
-
-    main {
-        margin: 20px auto;
-        padding: 15px;
-    }
-
-    section {
-        padding: 25px 15px;
-    }
-
-    .logo-item {
-        width: 140px;
-        font-size: 15px;
-        padding: 20px 10px;
-    }
-
-}
-
-
-/* Tablet responsive styles */
-@media screen and (min-width: 601px) and (max-width: 900px) {
-
-    header {
-        padding: 60px 20px;
-    }
-
-    header h1 {
-        font-size: clamp(26px, 4vw, 48px);
-    }
-
-    main {
-        padding: 25px;
-    }
-
-    .logo-item {
-        width: 160px;
-    }
-
-}
-
-
-/* Project grid layout */
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    margin-top: 30px;
-}
-
-/* Individual project cards */
-.project-card {
-    background-color: #e1d4db;
-    padding: 25px;
-    border-radius: 25px;
-    border: 2px solid #3b2b27;
-}
-
-.project-card h3 {
-    margin-top: 0;
+nav ul li a {
     color: #3b2b27;
+    text-decoration: none;
+    font-size: 15px;
+    transition: opacity 0.3s ease;
 }
 
-.project-card p {
-    color: #3b2b27;
-    line-height: 1.5;
+nav ul li a:hover {
+    opacity: 0.6;
 }
