@@ -50,3 +50,10 @@ nav ul li a {
 nav ul li a:hover {
     opacity: 0.6;
 }
+
+/* Main content layout */
+main {
+    width: 84%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
