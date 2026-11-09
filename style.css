@@ -97,8 +97,8 @@ main {
 /* Main button */
 .primary-button {
     display: inline-block;
-    background-color: #3b2b27;
-    color: #e9e1e5;
+    background-color: #e1d4db;
+    color: #3b2b27;
     padding: 14px 28px;
     border-radius: 6px;
     text-decoration: none;
