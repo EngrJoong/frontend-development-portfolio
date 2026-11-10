@@ -138,10 +138,12 @@ main {
     padding: 30px;
     border-radius: 12px;
     border: 1px solid rgba(59, 43, 39, 0.12);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: block;
     color: #3b2b27;
     text-decoration: none;
+
+    /* Transitions */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Project titles */
@@ -302,7 +304,7 @@ footer {
 .project-card {
     opacity: 0;
     transform: translateY(25px);
-    transition: opacity 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    
 }
 
 /* Staggered animation delays */
