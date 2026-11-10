@@ -297,7 +297,7 @@ footer {
 
 /* Initial state before cards enter the screen */
 .project-card {
-    opacity: 0;
+    opacity: 1;
     transform: translateY(25px);
     transition: opacity 0.8s ease, transform 0.8s ease;
 }
