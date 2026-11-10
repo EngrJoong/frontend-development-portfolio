@@ -136,7 +136,7 @@ main {
 .project-card {
     background-color: #e1d4db;
     padding: 30px;
-    border-radius: 12px;'
+    border-radius: 12px;
     border: 1px solid rgba(59, 43, 39, 0.12);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: block
