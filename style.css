@@ -296,10 +296,6 @@ footer {
     transform: translateY(0);
 }
 
-.project-card:hover {
-    opacity: 0.6;
-}
-
 /* Initial state before cards enter the screen */
 .project-card {
     opacity: 0;
@@ -341,5 +337,12 @@ footer {
     .project-link {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@media (hover: hover) {
+    .project-card:hover {
+        transform: translateY(-6px) scale(1.03);
+        box-shadow: 0 10px 25px rgba(59, 43, 39, 0.12);
     }
 }
