@@ -136,9 +136,12 @@ main {
 .project-card {
     background-color: #e1d4db;
     padding: 30px;
-    border-radius: 12px;
+    border-radius: 12px;'
     border: 1px solid rgba(59, 43, 39, 0.12);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block
+    color: #3b2b27;
+    text-decoration: none;
 }
 
 /* Project titles */
@@ -278,7 +281,7 @@ footer {
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
-
+    border: none;
     opacity: 0;
     transform: translateY(8px);
     transition: opacity 0.3s ease, transform 0.3s ease;
@@ -321,7 +324,7 @@ footer {
 
 /* Visible state when cards enter the screen */
 .project-card.show {
-    opacity: 1;
+    opacity: 0;
     transform: translateY(0);
 }
 
