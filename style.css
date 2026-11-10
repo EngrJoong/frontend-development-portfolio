@@ -275,3 +275,18 @@ footer {
     font-size: 12px;
     font-weight: bold;
 }
+
+/* Project links */
+.project-link {
+    display: inline-block;
+    margin-top: 25px;
+    color: #3b2b27;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.project-link:hover {
+    opacity: 0.6;
+}
