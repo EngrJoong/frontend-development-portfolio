@@ -141,18 +141,6 @@ main {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Project card show */
-.project-card.show {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-/* Project card hover effect */
-.project-card:hover {
-    transform: translateY(-6px) scale(1.03);
-    box-shadow: 0 10px 25px rgba(59, 43, 39, 0.12);
-}
-
 /* Project titles */
 .project-card h3 {
     font-size: 21px;
@@ -335,4 +323,10 @@ footer {
 .project-card.show {
     opacity: 1;
     transform: translateY(0);
+}
+
+/* Project card hover effect */
+.project-card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 10px 25px rgba(59, 43, 39, 0.12);
 }
