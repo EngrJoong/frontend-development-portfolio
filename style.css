@@ -334,3 +334,12 @@ footer {
     transform: translateY(-6px) scale(1.03);
     box-shadow: 0 10px 25px rgba(59, 43, 39, 0.12);
 }
+
+/* Show project CTA on touchscreens */
+@media (hover: none) {
+    .project-card 
+    .project-link {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
