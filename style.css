@@ -302,7 +302,7 @@ footer {
 .project-card {
     opacity: 0;
     transform: translateY(25px);
-    transition: opacity 0.5s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Staggered animation delays */
