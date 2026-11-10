@@ -290,3 +290,21 @@ footer {
 .project-link:hover {
     opacity: 0.6;
 }
+
+/* Project card entrance animation */
+.project-card {
+    animation: fadeUp 0.8s ease both;
+}
+
+/* Animation definition */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
