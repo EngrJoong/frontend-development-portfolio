@@ -334,4 +334,5 @@ footer {
 .project-card:hover {
     transform: translateY(-6px) scale(1.03);
     box-shadow: 0 10px 25px rgba(59, 43, 39, 0.12);
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
