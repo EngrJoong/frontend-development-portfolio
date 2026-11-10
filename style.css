@@ -298,6 +298,23 @@ footer {
     transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
+/* Staggered animation delays */
+.project-card:nth-child(1) {
+    transition-delay: 0.1s;
+}
+
+.project-card:nth-child(2) {
+    transition-delay: 0.2s;
+}
+
+.project-card:nth-child(3) {
+    transition-delay: 0.3s;
+}
+
+.project-card:nth-child(4) {
+    transition-delay: 0.4s;
+}
+
 /* Visible state when cards enter the screen */
 .project-card.show {
     opacity: 1;
