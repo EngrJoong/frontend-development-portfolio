@@ -258,3 +258,20 @@ footer {
     border-radius: 8px;
     margin-bottom: 20px;
 }
+
+/* Project technology tags */
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.project-tags span {
+    background-color: #e9e1e5;
+    color: #3b2b27;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
