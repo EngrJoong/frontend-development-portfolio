@@ -294,7 +294,7 @@ footer {
     transform: translateY(0);
 }
 
-.project-link:hover {
+.project-card:hover {
     opacity: 0.6;
 }
 
