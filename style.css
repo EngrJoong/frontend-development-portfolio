@@ -246,16 +246,6 @@ footer {
     .project-card {
         padding: 20px;
     }
-    
-    .about {
-        grid-template-columns: 1fr;
-        gap: 25px;
-        margin-top: 80px;
-    }
-
-    .about-details {
-        padding: 25px;
-    }
 
 }
 
