@@ -67,6 +67,27 @@ nav ul li a:hover {
     transform: translateY(-2px);
 }
 
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 2px;
+    background-color: #e9e1e5;
+    transition: width 0.3s ease;
+}
+
+.nav-link.active::after {
+    width: 100%;
+}
+
+
 /* Main content layout */
 main {
     width: 84%;
