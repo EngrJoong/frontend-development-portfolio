@@ -60,3 +60,16 @@ const navObserver = new IntersectionObserver((entries) => {
 sections.forEach((section) => {
     navObserver.observe(section);
 });
+
+// Select the mobile menu button and navigation list
+const menuToggle = document.querySelector(".menu-toggle");
+const navMenu = document.querySelector("nav ul");
+
+// Toggle the mobile menu when the button is clicked
+menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("open");
+
+    // Update the button's accessibility state
+    const isOpen = navMenu.classList.contains("open");
+    menuToggle.setAttribute("aria-expanded", isOpen);
+});
