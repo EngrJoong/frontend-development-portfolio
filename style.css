@@ -66,6 +66,10 @@ main {
     width: 84%;
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    background-color: #e9e1e5;
+    margin-bottom: 100px;
 }
 
 /* Hero section */
