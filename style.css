@@ -224,8 +224,11 @@ footer {
 }
 
 .about-details p {
+    font-size: 16px;
+    font-weight: 600;
     margin-bottom: 22px;
     line-height: 1.6;
+    opacity: 0.9;
 }
 
 .about-details p:last-child {
