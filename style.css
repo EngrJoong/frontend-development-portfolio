@@ -218,7 +218,7 @@ main {
     text-decoration: none;
 
     /* Transitions */
-    transition: opacity 0.5s ease-out, transform 0.25s ease-out, box-shadow 0.25s ease-out;
+    transition: opacity 0.5s ease-out, transform 0.3s ease-out, box-shadow 0.3s ease-out;
 }
 
 /* Project titles */
@@ -548,12 +548,6 @@ footer {
     transform: translateY(0);
 }
 
-/* Project card hover effect */
-.project-card:hover {
-    transform: translateY(-6px) scale(1.03);
-    box-shadow: 0 10px 25px rgba(59, 43, 39, 0.12);
-}
-
 /* Show project CTA on touchscreens */
 @media (hover: none) {
     .project-card 
@@ -563,10 +557,12 @@ footer {
     }
 }
 
+/* Project card hover effect */
 @media (hover: hover) {
     .project-card:hover {
-        transform: translateY(-6px) scale(1.03);
-        box-shadow: 0 10px 25px rgba(59, 43, 39, 0.12);
+        transform: translateY(-4px);
+        box-shadow: 0 12px 25px rgba(59, 43, 39, 0.14);
+        transition-delay: 0s;
     }
 }
 
