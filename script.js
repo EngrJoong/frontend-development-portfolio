@@ -24,3 +24,39 @@ const observer = new IntersectionObserver((entries) => {
 projectCards.forEach((card) => {
     observer.observe(card);
 });
+
+// Select all navigation links
+const navLinks = document.querySelectorAll(".nav-link");
+
+// Select the sections linked from the navigation
+const sections = document.querySelectorAll("#home, #projects, #about");
+
+// Create an observer for the page sections
+const navObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+
+            // Remove the active class from all navigation links
+            navLinks.forEach((link) => {
+                link.classList.remove("active");
+            });
+
+            // Find the link that matches the visible section
+            const activeLink = document.querySelector(
+                `.nav-link[href="#${entry.target.id}"]`
+            );
+
+            // Highlight the matching navigation link
+            if (activeLink) {
+                activeLink.classList.add("active");
+            }
+        }
+    });
+}, {
+    rootMargin: "-20% 0px -60% 0px"
+});
+
+// Watch each page section
+sections.forEach((section) => {
+    navObserver.observe(section);
+});
