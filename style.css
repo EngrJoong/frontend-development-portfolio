@@ -23,7 +23,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: #e9e1e5;
+    background-color: #3b2b27;
 }
 
 /* 4. Navigation layout */
@@ -35,7 +35,7 @@ nav {
 
 /* 5. Website logo */
 .logo {
-    color: #3b2b27;
+    color: #e9e1e5;
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
@@ -49,7 +49,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #3b2b27;
+    color: #e9e1e5;
     text-decoration: none;
     font-size: 15px;
     transition: opacity 0.3s ease, transform 0.3s ease;
