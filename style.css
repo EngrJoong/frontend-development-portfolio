@@ -350,6 +350,10 @@ footer {
         min-width: 150px;
     }
 
+    nav ul.open {
+    display: flex;
+    }
+
     nav ul li a {
         font-size: 13px;
     }
