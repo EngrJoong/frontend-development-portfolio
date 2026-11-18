@@ -207,6 +207,29 @@ footer {
     margin-bottom: 15px;
 }
 
+.growth-note {
+    margin-top: 30px;
+    padding-left: 15px;
+    border-left: 3px solid #3b2b27;
+}
+
+.growth-note span {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    opacity: 0.65;
+}
+
+.growth-note p {
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+
 .about-details {
     background-color: #e1d4db;
     padding: 30px;
