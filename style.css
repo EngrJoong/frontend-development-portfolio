@@ -350,11 +350,11 @@ footer {
     }
 
     nav {
-    position: relative;
+        position: relative;
     }
 
     nav ul {
-        display: none;
+        display: flex;
         position: absolute;
         top: 100%;
         right: 0;
@@ -365,10 +365,20 @@ footer {
         padding: 20px;
         border-radius: 8px;
         min-width: 150px;
-    }
 
+    /* Animation */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, 
+                transform 0.3s ease, 
+                visibility 0.3s ease;
+    }
+    
     nav ul.open {
-    display: flex;
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
     }
 
     nav ul li a {
