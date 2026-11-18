@@ -66,6 +66,7 @@ nav ul li a {
     nav ul li a:hover {
         opacity: 0.65;
         transform: translateY(-2px);
+    }
 }
 
 .nav-link {
