@@ -73,3 +73,11 @@ menuToggle.addEventListener("click", () => {
     const isOpen = navMenu.classList.contains("open");
     menuToggle.setAttribute("aria-expanded", isOpen);
 });
+
+// Close the mobile menu after selecting a link
+navLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+        navMenu.classList.remove("open");
+        menuToggle.setAttribute("aria-expanded", "false");
+    });
+});
