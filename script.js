@@ -79,6 +79,7 @@ menuToggle.addEventListener("click", () => {
 navLinks.forEach((link) => {
     link.addEventListener("click", () => {
         navMenu.classList.remove("open");
+        menuToggle.classList.remove("active");
         menuToggle.setAttribute("aria-expanded", "false");
     });
 });
