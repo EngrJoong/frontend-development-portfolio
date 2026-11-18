@@ -20,6 +20,10 @@ body {
 /* 3. Header */
 header {
     padding: 25px 8%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #e9e1e5;
 }
 
 /* 4. Navigation layout */
