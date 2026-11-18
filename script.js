@@ -68,6 +68,7 @@ const navMenu = document.querySelector("nav ul");
 // Toggle the mobile menu when the button is clicked
 menuToggle.addEventListener("click", () => {
     navMenu.classList.toggle("open");
+    menuToggle.classList.toggle("active");
 
     // Update the button's accessibility state
     const isOpen = navMenu.classList.contains("open");
