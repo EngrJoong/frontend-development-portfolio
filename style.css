@@ -343,6 +343,10 @@ footer {
     .logo {
         font-size: 20px;
     }
+
+    .menu-toggle {
+    display: block;
+    }
 }
 
 /* Mobile layout */
