@@ -47,6 +47,24 @@ nav {
     text-decoration: none;
 }
 
+/*Hamburger menu*/
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #e9e1e5;
+    margin: 6px 0;
+    transition: 0.3s ease;
+}
+
 /* 6. Navigation links */
 nav ul {
     display: flex;
@@ -87,6 +105,7 @@ nav ul li a {
 .nav-link.active::after {
     width: 100%;
 }
+
 
 
 /* Main content layout */
