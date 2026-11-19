@@ -479,6 +479,13 @@ footer {
     display: block;
     border-radius: 8px;
     margin-bottom: 20px;
+    transition: transform 0.4s ease;
+}
+
+@media (hover: hover) {
+    .project-card:hover .project-image {
+        transform: scale(1.05);
+    }
 }
 
 /* Project technology tags */
